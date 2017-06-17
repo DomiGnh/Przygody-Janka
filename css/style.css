@@ -8,7 +8,7 @@
     z-index: 10;
     width: 100%;
     
-    background-color: azure;
+    background-color: white;
 }
 
 #menu > ul {
@@ -25,4 +25,90 @@
     text-decoration: none;
     color: #000;
 }
+/*paralax styles*/
+
+.paralax{
+    height:70vh;
+    background-color: azure;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#paralax1{
+   background-image: url(Warsaw.jpg); 
+}
+
+#paralax2{
+   background-image: url(0.jpg); 
+}
+
+#paralax3{
+   background-image: url(reka.png); 
+}
+
+#paralax4{
+    background-image: url(par4.jpeg);
+}
+
+#paralax5{
+    background-image: url(par5.jpeg);
+}
+
+
+
+
+.tytul{
+    width: 60%;
+    padding: 20px;
+    margin: 20%;
+    top: 50%;
+    transform: translateY(-120%);
+   
+    text-align: center;
+}
+
+
+.tytul > h1{
+     font-size: 3em;
+
+}
+.tytul, h1 + h2{
+
+   color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.tytul h2{
+    font-size: 2em;
+}
+
+
+
+.content{
+    width: 100%;
+    padding: 50px 20%;
+    line-height: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

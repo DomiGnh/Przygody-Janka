@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+#menu{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    
+    background-color: white;
+}
+
+#menu > ul {
+    text-align: right;
+}
+
+#menu > ul > li {
+    display: inline-block;
+    padding: 20px 40px;
+    
+}
+
+#menu > ul > li> a{
+    text-decoration: none;
+    color: #000;
+}
