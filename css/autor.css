@@ -32,21 +32,13 @@
 section#about {
     width: 100%;
     height: 100vh;
-    background-color:beige;
-/*
-    background-image: url(tlo2.jpeg);
-    background-size: cover;
-    background-position: center;
-    
-    
-*/
-    
+   position: relative;
 }
 
+/*
 section#about h1{
     
-    padding-top: 10%;
-    text-align: center; 
+    ; 
     font-size: 2em;
 }
 
@@ -71,9 +63,30 @@ margin-top: 5%;}
     line-height: 25px;
     padding: 100px 100px 100px 20px;
 }
+*/
 
 
 
+
+#about .col{
+    float: left;
+}
+
+
+#about .napis{
+    background-color: #000;
+    color: white;
+    width: 40%;
+    position: relative;
+    
+}
+
+#about .foto{
+    width: 60%;
+    background-position: center;
+    background-size: cover;
+    right: 0px;
+}
 
 
 
