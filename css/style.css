@@ -38,23 +38,23 @@
 }
 
 #paralax1{
-   background-image: url(Warsaw.jpg); 
+   background-image: url(../img/Warsaw.jpg); 
 }
 
 #paralax2{
-   background-image: url(0.jpg); 
+   background-image: url(../img/0.jpg); 
 }
 
 #paralax3{
-   background-image: url(reka.png); 
+   background-image: url(../img/reka.png); 
 }
 
 #paralax4{
-    background-image: url(par4.jpeg);
+    background-image: url(../img/par4.jpeg);
 }
 
 #paralax5{
-    background-image: url(par5.jpeg);
+    background-image: url(../img/par5.jpeg);
 }
 
 
