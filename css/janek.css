@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+#menu{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    
+    background-color: white;
+}
+
+#menu > ul {
+    text-align: right;
+}
+
+#menu > ul > li {
+    display: inline-block;
+    padding: 20px 40px;
+    
+}
+
+#menu > ul > li> a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+#paralaxx{
+    height:70vh;
+    background-color: azure;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/par4.jpeg);
+}
+/*sekacja about*/
+
+#about{
+    width: 100%;
+    height: 580px;
+    background-color: #000;
+    position: relative;
+    
+}
+
+
+#about #foto img{
+    width: 35%;
+    height: 580px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top:0px;
+}
+
+
+#about #opis{
+    width:65%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    right: 0;
+}
+
+#about h1{
+    font-size: 2.5em;
+    margin-top: 150px;
+}
+
+#about p{
+    padding: 50px 100px;
+    line-height: 30px;
+}
+
+
+/*stopka*/
+
+footer{
+    width: 100%;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -57,6 +57,9 @@
     background-image: url(../img/par5.jpeg);
 }
 
+#paralax6{
+    background-image: url(../img/cinema.jpeg);
+}
 
 
 
@@ -89,7 +92,7 @@
 
 .content{
     width: 100%;
-    padding: 70px 20%;
+    padding: 70px 23%;
     line-height: 30px;
     
 }
